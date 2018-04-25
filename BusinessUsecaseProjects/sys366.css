@@ -1,0 +1,138 @@
+/*
+
+This file contains the CSS required for the SYS366 zenit accounts.  Do not modify this file.
+
+
+
+
+*/
+
+
+
+body {
+	font-family: Helvetica, Arial, sans_serif;
+	font-weight: normal;
+	padding: 24px;
+}
+
+
+p.instructions {
+	font-style: italic;
+	padding: 4px 2px;
+	text-align: right;
+}
+
+h1 {
+	display:inline;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 0.4em 0 0.2em 0.1em;
+	line-height: 1.2em;
+}
+
+h2 {
+	display:inline;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding: 0 0 0.2em 0.2em;
+}
+
+a.email {
+	margin: 0 18px;
+	padding: 2px 4px;
+	color: #22a;
+}
+
+a.email:hover {
+	background-color: #ddf;
+}
+
+
+.projectComponent, .studentArea {
+	/*border: 2px solid #999;*/
+	background-color: #ccf;
+	clear: both;
+	padding: 6px;
+	margin: 0 0 2em 0;
+	-moz-border-radius: 0 36px 0 0;
+	-webkit-border-radius: 0 36px  0 0;
+	border-radius: 0 36px 0 0;/* future proofing */
+	-khtml-border-radius: 0 36px 0 0; /* for old Konqueror browsers */
+}
+
+p {
+
+
+}
+
+p.toTop {
+	text-align: right;
+	margin: 0.2em;
+	font-size: 0.9em;
+}
+
+nav ul {
+	border: 3px solid #024;
+	background-color: #369;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 0 30px 12px;
+	line-height: 3em;
+}
+
+nav ul li a {
+	background-color: #9cf;
+	border: 2px solid #024;
+	padding: 4px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	white-space: nowrap;
+}
+
+nav ul li a:hover {
+	background-color: #bdf;
+	border: 2px solid #69c;
+	padding: 4px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #002;
+}
+
+nav li.course {
+	position: absolute;
+	right: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding-right: 12px;
+}
+
+
+table {
+	margin-top: 6px;
+	border: 1px solid #999;
+	border-collapse: collapse;
+}
+
+table td, th {
+	border: 1px solid #999;
+	padding: 3px 6px;
+	text-align: left;
+	line-height: 1.2em;
+	background-color: #fff;
+}
+
+table th {
+	font-weight: bold;
+}
+table tr:hover td {
+	border: 1px solid #000;
+	background-color: #ffb;
+}
+
+
+
+
+
